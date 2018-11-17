@@ -7,34 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378B94A878E189FAC5BE7591 /* libPods-LottieDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABA8828F868661BA610BCD5 /* libPods-LottieDemo-iOS.a */; };
 		9EAD718021A008AC0034CF91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD717F21A008AC0034CF91 /* AppDelegate.m */; };
 		9EAD718321A008AC0034CF91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD718221A008AC0034CF91 /* ViewController.m */; };
 		9EAD718621A008AC0034CF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD718421A008AC0034CF91 /* Main.storyboard */; };
 		9EAD718821A008AE0034CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD718721A008AE0034CF91 /* Assets.xcassets */; };
 		9EAD718B21A008AE0034CF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD718921A008AE0034CF91 /* LaunchScreen.storyboard */; };
 		9EAD718E21A008AE0034CF91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD718D21A008AE0034CF91 /* main.m */; };
-		9EAD719821A008AE0034CF91 /* LottieDemo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD719721A008AE0034CF91 /* LottieDemo_iOSTests.m */; };
-		9EAD71A321A008AE0034CF91 /* LottieDemo_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD71A221A008AE0034CF91 /* LottieDemo_iOSUITests.m */; };
+		9EAD71E221A019170034CF91 /* main_bg.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B121A019170034CF91 /* main_bg.json */; };
+		9EAD71E321A019170034CF91 /* explore_effects_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B321A019170034CF91 /* explore_effects_1.json */; };
+		9EAD71E421A019170034CF91 /* explore_effects_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B421A019170034CF91 /* explore_effects_2.json */; };
+		9EAD71E521A019170034CF91 /* explore_effects_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B521A019170034CF91 /* explore_effects_3.json */; };
+		9EAD71E621A019170034CF91 /* explore_btn.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B621A019170034CF91 /* explore_btn.json */; };
+		9EAD71E721A019170034CF91 /* CrossChangeRound.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71B821A019170034CF91 /* CrossChangeRound.json */; };
+		9EAD71E821A019170034CF91 /* animation_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71BA21A019170034CF91 /* animation_bg.png */; };
+		9EAD71E921A019170034CF91 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71BC21A019170034CF91 /* loading.json */; };
+		9EAD71EA21A019170034CF91 /* blue_circle_loding.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71BD21A019170034CF91 /* blue_circle_loding.json */; };
+		9EAD71EB21A019170034CF91 /* launch_bg.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71BF21A019170034CF91 /* launch_bg.json */; };
+		9EAD71EC21A019170034CF91 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C121A019170034CF91 /* bg.png */; };
+		9EAD71ED21A019170034CF91 /* launch_spirit.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C221A019170034CF91 /* launch_spirit.json */; };
+		9EAD71EE21A019170034CF91 /* launch_text.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C321A019170034CF91 /* launch_text.json */; };
+		9EAD71EF21A019170034CF91 /* explore_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C521A019170034CF91 /* explore_2.json */; };
+		9EAD71F021A019170034CF91 /* explore_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C621A019170034CF91 /* explore_3.json */; };
+		9EAD71F121A019170034CF91 /* explore_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C721A019170034CF91 /* explore_1.json */; };
+		9EAD71F221A019170034CF91 /* love_dislike.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71C921A019170034CF91 /* love_dislike.json */; };
+		9EAD71F321A019170034CF91 /* Love_appears.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71CB21A019170034CF91 /* Love_appears.json */; };
+		9EAD71F421A019170034CF91 /* explore_click.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71CD21A019170034CF91 /* explore_click.json */; };
+		9EAD71F521A019170034CF91 /* videochat_gift.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71CE21A019170034CF91 /* videochat_gift.json */; };
+		9EAD71F621A019170034CF91 /* friendbackground.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D021A019170034CF91 /* friendbackground.json */; };
+		9EAD71F721A019170034CF91 /* friendBGImg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D221A019170034CF91 /* friendBGImg_0.png */; };
+		9EAD71F821A019170034CF91 /* refresh_spirit.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D421A019170034CF91 /* refresh_spirit.json */; };
+		9EAD71F921A019170034CF91 /* recognizer_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D721A019170034CF91 /* recognizer_img_0.png */; };
+		9EAD71FA21A019170034CF91 /* recognizer_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D821A019170034CF91 /* recognizer_img_1.png */; };
+		9EAD71FB21A019170034CF91 /* recognizer.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71D921A019170034CF91 /* recognizer.json */; };
+		9EAD71FC21A019170034CF91 /* explore_click_cancel.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71DB21A019170034CF91 /* explore_click_cancel.json */; };
+		9EAD71FD21A019170034CF91 /* love_like.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71DD21A019170034CF91 /* love_like.json */; };
+		9EAD71FE21A019170034CF91 /* chat_voice.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71DF21A019170034CF91 /* chat_voice.json */; };
+		9EAD71FF21A019170034CF91 /* MatchWaitingLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD71E121A019170034CF91 /* MatchWaitingLoading.json */; };
+		9EAD720621A0198B0034CF91 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD720521A0198B0034CF91 /* MainViewController.m */; };
+		9EAD720921A01A840034CF91 /* MainViewController+loadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD720821A01A840034CF91 /* MainViewController+loadAnimation.m */; };
+		9EAD720D21A01C9E0034CF91 /* BackgroudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD720C21A01C9E0034CF91 /* BackgroudView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9EAD719421A008AE0034CF91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EAD717321A008AC0034CF91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9EAD717A21A008AC0034CF91;
-			remoteInfo = "LottieDemo-iOS";
-		};
-		9EAD719F21A008AE0034CF91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EAD717321A008AC0034CF91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9EAD717A21A008AC0034CF91;
-			remoteInfo = "LottieDemo-iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		00B7CF418EB8907236CEEF42 /* Pods-LottieDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieDemo-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieDemo-iOS/Pods-LottieDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6939469AB3F4C89705BB5A1D /* Pods-LottieDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieDemo-iOS/Pods-LottieDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABA8828F868661BA610BCD5 /* libPods-LottieDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LottieDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAD717B21A008AC0034CF91 /* LottieDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LottieDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAD717E21A008AC0034CF91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EAD717F21A008AC0034CF91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +63,47 @@
 		9EAD718A21A008AE0034CF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EAD718C21A008AE0034CF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EAD718D21A008AE0034CF91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EAD719321A008AE0034CF91 /* LottieDemo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LottieDemo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAD719721A008AE0034CF91 /* LottieDemo_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieDemo_iOSTests.m; sourceTree = "<group>"; };
 		9EAD719921A008AE0034CF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EAD719E21A008AE0034CF91 /* LottieDemo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LottieDemo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAD71A221A008AE0034CF91 /* LottieDemo_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieDemo_iOSUITests.m; sourceTree = "<group>"; };
 		9EAD71A421A008AE0034CF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAD71B121A019170034CF91 /* main_bg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main_bg.json; sourceTree = "<group>"; };
+		9EAD71B321A019170034CF91 /* explore_effects_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_effects_1.json; sourceTree = "<group>"; };
+		9EAD71B421A019170034CF91 /* explore_effects_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_effects_2.json; sourceTree = "<group>"; };
+		9EAD71B521A019170034CF91 /* explore_effects_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_effects_3.json; sourceTree = "<group>"; };
+		9EAD71B621A019170034CF91 /* explore_btn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_btn.json; sourceTree = "<group>"; };
+		9EAD71B821A019170034CF91 /* CrossChangeRound.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CrossChangeRound.json; sourceTree = "<group>"; };
+		9EAD71BA21A019170034CF91 /* animation_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_bg.png; sourceTree = "<group>"; };
+		9EAD71BC21A019170034CF91 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		9EAD71BD21A019170034CF91 /* blue_circle_loding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blue_circle_loding.json; sourceTree = "<group>"; };
+		9EAD71BF21A019170034CF91 /* launch_bg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch_bg.json; sourceTree = "<group>"; };
+		9EAD71C121A019170034CF91 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9EAD71C221A019170034CF91 /* launch_spirit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch_spirit.json; sourceTree = "<group>"; };
+		9EAD71C321A019170034CF91 /* launch_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch_text.json; sourceTree = "<group>"; };
+		9EAD71C521A019170034CF91 /* explore_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_2.json; sourceTree = "<group>"; };
+		9EAD71C621A019170034CF91 /* explore_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_3.json; sourceTree = "<group>"; };
+		9EAD71C721A019170034CF91 /* explore_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_1.json; sourceTree = "<group>"; };
+		9EAD71C921A019170034CF91 /* love_dislike.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love_dislike.json; sourceTree = "<group>"; };
+		9EAD71CB21A019170034CF91 /* Love_appears.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Love_appears.json; sourceTree = "<group>"; };
+		9EAD71CD21A019170034CF91 /* explore_click.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_click.json; sourceTree = "<group>"; };
+		9EAD71CE21A019170034CF91 /* videochat_gift.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videochat_gift.json; sourceTree = "<group>"; };
+		9EAD71D021A019170034CF91 /* friendbackground.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friendbackground.json; sourceTree = "<group>"; };
+		9EAD71D221A019170034CF91 /* friendBGImg_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friendBGImg_0.png; sourceTree = "<group>"; };
+		9EAD71D421A019170034CF91 /* refresh_spirit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refresh_spirit.json; sourceTree = "<group>"; };
+		9EAD71D721A019170034CF91 /* recognizer_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recognizer_img_0.png; sourceTree = "<group>"; };
+		9EAD71D821A019170034CF91 /* recognizer_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recognizer_img_1.png; sourceTree = "<group>"; };
+		9EAD71D921A019170034CF91 /* recognizer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recognizer.json; sourceTree = "<group>"; };
+		9EAD71DB21A019170034CF91 /* explore_click_cancel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore_click_cancel.json; sourceTree = "<group>"; };
+		9EAD71DD21A019170034CF91 /* love_like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love_like.json; sourceTree = "<group>"; };
+		9EAD71DF21A019170034CF91 /* chat_voice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat_voice.json; sourceTree = "<group>"; };
+		9EAD71E121A019170034CF91 /* MatchWaitingLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MatchWaitingLoading.json; sourceTree = "<group>"; };
+		9EAD720421A0198B0034CF91 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9EAD720521A0198B0034CF91 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9EAD720721A01A840034CF91 /* MainViewController+loadAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainViewController+loadAnimation.h"; sourceTree = "<group>"; };
+		9EAD720821A01A840034CF91 /* MainViewController+loadAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+loadAnimation.m"; sourceTree = "<group>"; };
+		9EAD720A21A01C160034CF91 /* MainViewController+private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainViewController+private.h"; sourceTree = "<group>"; };
+		9EAD720B21A01C9E0034CF91 /* BackgroudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroudView.h; sourceTree = "<group>"; };
+		9EAD720C21A01C9E0034CF91 /* BackgroudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,26 +111,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD719021A008AE0034CF91 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD719B21A008AE0034CF91 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				378B94A878E189FAC5BE7591 /* libPods-LottieDemo-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5E527FD051213DDFDD7C1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA8828F868661BA610BCD5 /* libPods-LottieDemo-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		246092A50034FF760B9DA71E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6939469AB3F4C89705BB5A1D /* Pods-LottieDemo-iOS.debug.xcconfig */,
+				00B7CF418EB8907236CEEF42 /* Pods-LottieDemo-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9EAD717221A008AC0034CF91 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				9EAD719621A008AE0034CF91 /* LottieDemo-iOSTests */,
 				9EAD71A121A008AE0034CF91 /* LottieDemo-iOSUITests */,
 				9EAD717C21A008AC0034CF91 /* Products */,
+				246092A50034FF760B9DA71E /* Pods */,
+				0A5E527FD051213DDFDD7C1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				9EAD717B21A008AC0034CF91 /* LottieDemo-iOS.app */,
-				9EAD719321A008AE0034CF91 /* LottieDemo-iOSTests.xctest */,
-				9EAD719E21A008AE0034CF91 /* LottieDemo-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +158,8 @@
 		9EAD717D21A008AC0034CF91 /* LottieDemo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9EAD720021A0191E0034CF91 /* MainPage */,
+				9EAD71B021A019170034CF91 /* AE */,
 				9EAD717E21A008AC0034CF91 /* AppDelegate.h */,
 				9EAD717F21A008AC0034CF91 /* AppDelegate.m */,
 				9EAD718121A008AC0034CF91 /* ViewController.h */,
@@ -132,6 +191,233 @@
 			path = "LottieDemo-iOSUITests";
 			sourceTree = "<group>";
 		};
+		9EAD71B021A019170034CF91 /* AE */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71B121A019170034CF91 /* main_bg.json */,
+				9EAD71B221A019170034CF91 /* ExploreAnimation */,
+				9EAD71B721A019170034CF91 /* CrossChangeRound */,
+				9EAD71B921A019170034CF91 /* Images */,
+				9EAD71BB21A019170034CF91 /* ButtonLoading */,
+				9EAD71BE21A019170034CF91 /* LaunchAnimation */,
+				9EAD71C421A019170034CF91 /* explore_Loading */,
+				9EAD71C821A019170034CF91 /* love_dislike */,
+				9EAD71CA21A019170034CF91 /* Love_appears */,
+				9EAD71CC21A019170034CF91 /* explore_click */,
+				9EAD71CE21A019170034CF91 /* videochat_gift.json */,
+				9EAD71CF21A019170034CF91 /* FriendsBG */,
+				9EAD71D321A019170034CF91 /* FriendAnimation */,
+				9EAD71D521A019170034CF91 /* recognizer */,
+				9EAD71DA21A019170034CF91 /* explore_click_cancel */,
+				9EAD71DC21A019170034CF91 /* love_like */,
+				9EAD71DE21A019170034CF91 /* ChatViewAnimation */,
+				9EAD71E021A019170034CF91 /* MatchWaitingLoading */,
+			);
+			path = AE;
+			sourceTree = "<group>";
+		};
+		9EAD71B221A019170034CF91 /* ExploreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71B321A019170034CF91 /* explore_effects_1.json */,
+				9EAD71B421A019170034CF91 /* explore_effects_2.json */,
+				9EAD71B521A019170034CF91 /* explore_effects_3.json */,
+				9EAD71B621A019170034CF91 /* explore_btn.json */,
+			);
+			path = ExploreAnimation;
+			sourceTree = "<group>";
+		};
+		9EAD71B721A019170034CF91 /* CrossChangeRound */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71B821A019170034CF91 /* CrossChangeRound.json */,
+			);
+			path = CrossChangeRound;
+			sourceTree = "<group>";
+		};
+		9EAD71B921A019170034CF91 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71BA21A019170034CF91 /* animation_bg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9EAD71BB21A019170034CF91 /* ButtonLoading */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71BC21A019170034CF91 /* loading.json */,
+				9EAD71BD21A019170034CF91 /* blue_circle_loding.json */,
+			);
+			path = ButtonLoading;
+			sourceTree = "<group>";
+		};
+		9EAD71BE21A019170034CF91 /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71BF21A019170034CF91 /* launch_bg.json */,
+				9EAD71C021A019170034CF91 /* images */,
+				9EAD71C221A019170034CF91 /* launch_spirit.json */,
+				9EAD71C321A019170034CF91 /* launch_text.json */,
+			);
+			path = LaunchAnimation;
+			sourceTree = "<group>";
+		};
+		9EAD71C021A019170034CF91 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71C121A019170034CF91 /* bg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9EAD71C421A019170034CF91 /* explore_Loading */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71C521A019170034CF91 /* explore_2.json */,
+				9EAD71C621A019170034CF91 /* explore_3.json */,
+				9EAD71C721A019170034CF91 /* explore_1.json */,
+			);
+			path = explore_Loading;
+			sourceTree = "<group>";
+		};
+		9EAD71C821A019170034CF91 /* love_dislike */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71C921A019170034CF91 /* love_dislike.json */,
+			);
+			path = love_dislike;
+			sourceTree = "<group>";
+		};
+		9EAD71CA21A019170034CF91 /* Love_appears */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71CB21A019170034CF91 /* Love_appears.json */,
+			);
+			path = Love_appears;
+			sourceTree = "<group>";
+		};
+		9EAD71CC21A019170034CF91 /* explore_click */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71CD21A019170034CF91 /* explore_click.json */,
+			);
+			path = explore_click;
+			sourceTree = "<group>";
+		};
+		9EAD71CF21A019170034CF91 /* FriendsBG */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71D021A019170034CF91 /* friendbackground.json */,
+				9EAD71D121A019170034CF91 /* friendsImages */,
+			);
+			path = FriendsBG;
+			sourceTree = "<group>";
+		};
+		9EAD71D121A019170034CF91 /* friendsImages */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71D221A019170034CF91 /* friendBGImg_0.png */,
+			);
+			path = friendsImages;
+			sourceTree = "<group>";
+		};
+		9EAD71D321A019170034CF91 /* FriendAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71D421A019170034CF91 /* refresh_spirit.json */,
+			);
+			path = FriendAnimation;
+			sourceTree = "<group>";
+		};
+		9EAD71D521A019170034CF91 /* recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71D621A019170034CF91 /* recognizerimages */,
+				9EAD71D921A019170034CF91 /* recognizer.json */,
+			);
+			path = recognizer;
+			sourceTree = "<group>";
+		};
+		9EAD71D621A019170034CF91 /* recognizerimages */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71D721A019170034CF91 /* recognizer_img_0.png */,
+				9EAD71D821A019170034CF91 /* recognizer_img_1.png */,
+			);
+			path = recognizerimages;
+			sourceTree = "<group>";
+		};
+		9EAD71DA21A019170034CF91 /* explore_click_cancel */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71DB21A019170034CF91 /* explore_click_cancel.json */,
+			);
+			path = explore_click_cancel;
+			sourceTree = "<group>";
+		};
+		9EAD71DC21A019170034CF91 /* love_like */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71DD21A019170034CF91 /* love_like.json */,
+			);
+			path = love_like;
+			sourceTree = "<group>";
+		};
+		9EAD71DE21A019170034CF91 /* ChatViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71DF21A019170034CF91 /* chat_voice.json */,
+			);
+			path = ChatViewAnimation;
+			sourceTree = "<group>";
+		};
+		9EAD71E021A019170034CF91 /* MatchWaitingLoading */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD71E121A019170034CF91 /* MatchWaitingLoading.json */,
+			);
+			path = MatchWaitingLoading;
+			sourceTree = "<group>";
+		};
+		9EAD720021A0191E0034CF91 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD720321A019670034CF91 /* MainModel */,
+				9EAD720221A019580034CF91 /* MainView */,
+				9EAD720121A0194A0034CF91 /* MainController */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		9EAD720121A0194A0034CF91 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD720A21A01C160034CF91 /* MainViewController+private.h */,
+				9EAD720421A0198B0034CF91 /* MainViewController.h */,
+				9EAD720521A0198B0034CF91 /* MainViewController.m */,
+				9EAD720721A01A840034CF91 /* MainViewController+loadAnimation.h */,
+				9EAD720821A01A840034CF91 /* MainViewController+loadAnimation.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		9EAD720221A019580034CF91 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD720B21A01C9E0034CF91 /* BackgroudView.h */,
+				9EAD720C21A01C9E0034CF91 /* BackgroudView.m */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		9EAD720321A019670034CF91 /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EAD71A721A008AE0034CF91 /* Build configuration list for PBXNativeTarget "LottieDemo-iOS" */;
 			buildPhases = (
+				485F2A7E0830CC5A3A968447 /* [CP] Check Pods Manifest.lock */,
 				9EAD717721A008AC0034CF91 /* Sources */,
 				9EAD717821A008AC0034CF91 /* Frameworks */,
 				9EAD717921A008AC0034CF91 /* Resources */,
@@ -152,42 +439,6 @@
 			productReference = 9EAD717B21A008AC0034CF91 /* LottieDemo-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EAD719221A008AE0034CF91 /* LottieDemo-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EAD71AA21A008AE0034CF91 /* Build configuration list for PBXNativeTarget "LottieDemo-iOSTests" */;
-			buildPhases = (
-				9EAD718F21A008AE0034CF91 /* Sources */,
-				9EAD719021A008AE0034CF91 /* Frameworks */,
-				9EAD719121A008AE0034CF91 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EAD719521A008AE0034CF91 /* PBXTargetDependency */,
-			);
-			name = "LottieDemo-iOSTests";
-			productName = "LottieDemo-iOSTests";
-			productReference = 9EAD719321A008AE0034CF91 /* LottieDemo-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9EAD719D21A008AE0034CF91 /* LottieDemo-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EAD71AD21A008AE0034CF91 /* Build configuration list for PBXNativeTarget "LottieDemo-iOSUITests" */;
-			buildPhases = (
-				9EAD719A21A008AE0034CF91 /* Sources */,
-				9EAD719B21A008AE0034CF91 /* Frameworks */,
-				9EAD719C21A008AE0034CF91 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EAD71A021A008AE0034CF91 /* PBXTargetDependency */,
-			);
-			name = "LottieDemo-iOSUITests";
-			productName = "LottieDemo-iOSUITests";
-			productReference = 9EAD719E21A008AE0034CF91 /* LottieDemo-iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +450,6 @@
 				TargetAttributes = {
 					9EAD717A21A008AC0034CF91 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					9EAD719221A008AE0034CF91 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 9EAD717A21A008AC0034CF91;
-					};
-					9EAD719D21A008AE0034CF91 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 9EAD717A21A008AC0034CF91;
 					};
 				};
 			};
@@ -224,8 +467,6 @@
 			projectRoot = "";
 			targets = (
 				9EAD717A21A008AC0034CF91 /* LottieDemo-iOS */,
-				9EAD719221A008AE0034CF91 /* LottieDemo-iOSTests */,
-				9EAD719D21A008AE0034CF91 /* LottieDemo-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,27 +476,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAD71FC21A019170034CF91 /* explore_click_cancel.json in Resources */,
+				9EAD71FD21A019170034CF91 /* love_like.json in Resources */,
+				9EAD71F421A019170034CF91 /* explore_click.json in Resources */,
+				9EAD71F121A019170034CF91 /* explore_1.json in Resources */,
+				9EAD71FF21A019170034CF91 /* MatchWaitingLoading.json in Resources */,
+				9EAD71F921A019170034CF91 /* recognizer_img_0.png in Resources */,
+				9EAD71EA21A019170034CF91 /* blue_circle_loding.json in Resources */,
 				9EAD718B21A008AE0034CF91 /* LaunchScreen.storyboard in Resources */,
+				9EAD71EF21A019170034CF91 /* explore_2.json in Resources */,
+				9EAD71ED21A019170034CF91 /* launch_spirit.json in Resources */,
+				9EAD71FA21A019170034CF91 /* recognizer_img_1.png in Resources */,
+				9EAD71F521A019170034CF91 /* videochat_gift.json in Resources */,
+				9EAD71E521A019170034CF91 /* explore_effects_3.json in Resources */,
+				9EAD71FE21A019170034CF91 /* chat_voice.json in Resources */,
+				9EAD71F821A019170034CF91 /* refresh_spirit.json in Resources */,
+				9EAD71F021A019170034CF91 /* explore_3.json in Resources */,
+				9EAD71F321A019170034CF91 /* Love_appears.json in Resources */,
+				9EAD71E721A019170034CF91 /* CrossChangeRound.json in Resources */,
+				9EAD71EC21A019170034CF91 /* bg.png in Resources */,
+				9EAD71F721A019170034CF91 /* friendBGImg_0.png in Resources */,
+				9EAD71FB21A019170034CF91 /* recognizer.json in Resources */,
+				9EAD71E621A019170034CF91 /* explore_btn.json in Resources */,
+				9EAD71F621A019170034CF91 /* friendbackground.json in Resources */,
+				9EAD71EE21A019170034CF91 /* launch_text.json in Resources */,
+				9EAD71E921A019170034CF91 /* loading.json in Resources */,
+				9EAD71E321A019170034CF91 /* explore_effects_1.json in Resources */,
+				9EAD71E821A019170034CF91 /* animation_bg.png in Resources */,
+				9EAD71E221A019170034CF91 /* main_bg.json in Resources */,
 				9EAD718821A008AE0034CF91 /* Assets.xcassets in Resources */,
+				9EAD71EB21A019170034CF91 /* launch_bg.json in Resources */,
 				9EAD718621A008AC0034CF91 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD719121A008AE0034CF91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD719C21A008AE0034CF91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9EAD71E421A019170034CF91 /* explore_effects_2.json in Resources */,
+				9EAD71F221A019170034CF91 /* love_dislike.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485F2A7E0830CC5A3A968447 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieDemo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EAD717721A008AC0034CF91 /* Sources */ = {
@@ -265,39 +543,13 @@
 				9EAD718321A008AC0034CF91 /* ViewController.m in Sources */,
 				9EAD718E21A008AE0034CF91 /* main.m in Sources */,
 				9EAD718021A008AC0034CF91 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD718F21A008AE0034CF91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EAD719821A008AE0034CF91 /* LottieDemo_iOSTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EAD719A21A008AE0034CF91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EAD71A321A008AE0034CF91 /* LottieDemo_iOSUITests.m in Sources */,
+				9EAD720621A0198B0034CF91 /* MainViewController.m in Sources */,
+				9EAD720921A01A840034CF91 /* MainViewController+loadAnimation.m in Sources */,
+				9EAD720D21A01C9E0034CF91 /* BackgroudView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9EAD719521A008AE0034CF91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EAD717A21A008AC0034CF91 /* LottieDemo-iOS */;
-			targetProxy = 9EAD719421A008AE0034CF91 /* PBXContainerItemProxy */;
-		};
-		9EAD71A021A008AE0034CF91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EAD717A21A008AC0034CF91 /* LottieDemo-iOS */;
-			targetProxy = 9EAD719F21A008AE0034CF91 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9EAD718421A008AC0034CF91 /* Main.storyboard */ = {
@@ -433,6 +685,7 @@
 		};
 		9EAD71A821A008AE0034CF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6939469AB3F4C89705BB5A1D /* Pods-LottieDemo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +702,7 @@
 		};
 		9EAD71A921A008AE0034CF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B7CF418EB8907236CEEF42 /* Pods-LottieDemo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,76 +714,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "------------.LottieDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9EAD71AB21A008AE0034CF91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "LottieDemo-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "------------.LottieDemo-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieDemo-iOS.app/LottieDemo-iOS";
-			};
-			name = Debug;
-		};
-		9EAD71AC21A008AE0034CF91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "LottieDemo-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "------------.LottieDemo-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieDemo-iOS.app/LottieDemo-iOS";
-			};
-			name = Release;
-		};
-		9EAD71AE21A008AE0034CF91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "LottieDemo-iOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "------------.LottieDemo-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LottieDemo-iOS";
-			};
-			name = Debug;
-		};
-		9EAD71AF21A008AE0034CF91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "LottieDemo-iOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "------------.LottieDemo-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LottieDemo-iOS";
 			};
 			name = Release;
 		};
@@ -550,24 +734,6 @@
 			buildConfigurations = (
 				9EAD71A821A008AE0034CF91 /* Debug */,
 				9EAD71A921A008AE0034CF91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9EAD71AA21A008AE0034CF91 /* Build configuration list for PBXNativeTarget "LottieDemo-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EAD71AB21A008AE0034CF91 /* Debug */,
-				9EAD71AC21A008AE0034CF91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9EAD71AD21A008AE0034CF91 /* Build configuration list for PBXNativeTarget "LottieDemo-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EAD71AE21A008AE0034CF91 /* Debug */,
-				9EAD71AF21A008AE0034CF91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
